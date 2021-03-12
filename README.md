@@ -1,3 +1,6 @@
+# This is an unfinished project for a sushi restaurant.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
