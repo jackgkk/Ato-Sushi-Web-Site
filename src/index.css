@@ -1,13 +1,137 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 70px;
+    line-height: 132.4%;
+    /* or 106px */
+    margin: 0;
+    letter-spacing: 0.02em;
+
+    color: #ffffff;
+}
+
+.nav {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.025em;
+
+    color: #c4c4c4;
+}
+
+.lang {
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #dddddd;
+}
+
+.follow {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: white;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 59px;
+    /* identical to box height */
+
+    color: #ffffff;
+}
+h3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.025em;
+    text-transform: lowercase;
+}
+h4 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+h5 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #c4c4c4;
+}
+
+p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+a {
+}
+
+button {
+    background: #ffffff;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    width: 203px;
+    height: 56px;
+    border: none;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+button:hover {
+    filter: drop-shadow(0px 4px 24px rgba(255, 255, 255, 0.14));
+    transition: 0.6s ease-out;
+}
+
+button:focus {
+    outline: none;
+}
+button:active {
+    filter: drop-shadow(0px 4px 24px rgba(255, 255, 255, 0.24));
+}
+
+#secondary {
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background: transparent;
+    color: white;
+}
+
+#secondary:hover {
+    background: #ffffff;
+    filter: drop-shadow(0px 4px 24px rgba(255, 255, 255, 0.14));
+    color: black;
+}
+#secondary:active {
+    filter: drop-shadow(0px 4px 24px rgba(255, 255, 255, 0.24));
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
